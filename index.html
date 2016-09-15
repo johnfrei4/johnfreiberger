@@ -44,7 +44,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>com400 2.0 — Web version</title>
+<title>com400 2.0</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -160,6 +160,8 @@ Error message and password prompt
 <li>$:/core</li>
 
 <li>$:/core/ui/TopBar/menu</li>
+
+<li>$:/core/wiki/title</li>
 
 <li>$:/DefaultTiddlers</li>
 
@@ -424,6 +426,8 @@ Error message and password prompt
 <li>$:/state/toc/What kinds of people rely on / use documentation?-The person paying for the content-428821339</li>
 
 <li>$:/state/toc/What kinds of people rely on / use documentation?-What kinds of people write documentation?-428821339</li>
+
+<li>$:/StaticBanner</li>
 
 <li>$:/StoryList</li>
 
@@ -692,6 +696,8 @@ Error message and password prompt
 <li>Discussions</li>
 
 <li>Discussions template</li>
+
+<li>Document Review Process</li>
 
 <li>Documentation Definition</li>
 
@@ -1020,8 +1026,6 @@ Error message and password prompt
 <li>unwikified</li>
 
 <li>User Documents</li>
-
-<li>Using Swagger to Make API Documentation Interactive</li>
 
 <li>Vielitza Rodriguez Intro Responses</li>
 
@@ -8820,6 +8824,9 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
+<div created="20160915133147550" modified="20160915133151559" title="$:/core/wiki/title" type="text/vnd.tiddlywiki">
+<pre>{{$:/SiteTitle}}</pre>
+</div>
 <div created="20160802155048549" modified="20160906180238693" title="$:/DefaultTiddlers">
 <pre>[[•••]]
 </pre>
@@ -8866,11 +8873,10 @@ Error message and password prompt
 <div created="20160828152838589" modified="20160911202054774" title="$:/generated-list-selected-types">
 <pre>Process Documents</pre>
 </div>
-<div status="complete" title="$:/Import">
+<div created="20160915133400281" modified="20160915133400281" status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[slider]]
-# [[unwikified]]</pre>
+# [[$:/StaticBanner]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -10753,17 +10759,17 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20160908201442128" modified="20160913202717307" title="$:/state/SampleReveal2">
 <pre>hide</pre>
 </div>
-<div created="20160714154445045" modified="20160914201458766" title="$:/state/showeditpreview">
+<div created="20160714154445045" modified="20160915193718400" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20160714155119905" modified="20160914200657457" title="$:/state/sidebar">
+<div created="20160714155119905" modified="20160913205733895" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20160909030824922" modified="20160909030827140" title="$:/state/tab--1488345713">
 <pre>$:/core/ui/TiddlerInfo/Tagging</pre>
 </div>
-<div created="20160714154624721" modified="20160830132001373" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
+<div created="20160714154624721" modified="20160915133250341" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20160903164440399" modified="20160903164440400" title="$:/state/tab--1831288534">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
@@ -10783,7 +10789,7 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20160802155253289" modified="20160911185724550" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
-<div created="20160714154346213" modified="20160914201624732" title="$:/state/tab/sidebar--1835078512">
+<div created="20160714154346213" modified="20160915195842815" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20160829014315244" modified="20160829024550570" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -10816,8 +10822,8 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20160831145046409" modified="20160912190953352" title="$:/state/toc/CourseRequirements-Discussions-209360082">
 <pre>close</pre>
 </div>
-<div created="20160831145049290" modified="20160911210853301" title="$:/state/toc/CourseRequirements-Projects-209360082">
-<pre>open</pre>
+<div created="20160831145049290" modified="20160913205743548" title="$:/state/toc/CourseRequirements-Projects-209360082">
+<pre>close</pre>
 </div>
 <div created="20160901175953531" modified="20160901175953531" title="$:/state/toc/Dimensions-Production Modes-209360082">
 <pre>open</pre>
@@ -10897,11 +10903,17 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20160818201559728" modified="20160818201559728" title="$:/state/toc/What kinds of people rely on / use documentation?-What kinds of people write documentation?-428821339">
 <pre>open</pre>
 </div>
-<div list="[[Using Swagger to Make API Documentation Interactive]] [[purpose and workflow for blog]] •••" title="$:/StoryList">
+<div created="20160915133631996" modified="20160915133939219" tags="NewIn400" title="$:/StaticBanner">
+<pre>&lt;!--this is the banner printed on top of static html exports from this wiki--&gt;
+&lt;div class=&quot;tc-static-alert&quot;&gt;&lt;div class=&quot;tc-static-alert-inner&quot;&gt;This page is a static HTML representation of tiddlers from the [[COM400 ~TiddlyWiki|https://stevesunypoly.github.io/classes/com400fall2016/com400-spring2016-syllabus.html]]&lt;/div&gt;&lt;/div&gt;
+
+</pre>
+</div>
+<div list="[[Document Review Process]] [[purpose and workflow for blog]] •••" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20160714154620188" modified="20160913200359040" title="$:/temp/advancedsearch">
-<pre>class</pre>
+<div created="20160714154620188" modified="20160915133244934" title="$:/temp/advancedsearch">
+<pre>$:/StaticBanner</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -11259,7 +11271,7 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
 <div created="20160818201833834" modified="20160912190255863" title="$:/temp/RenameTags/search">
 <pre>Discussions</pre>
 </div>
-<div created="20160714154615320" modified="20160914200701058" title="$:/temp/search">
+<div created="20160714154615320" modified="20160915193630226" title="$:/temp/search">
 <pre>purpo</pre>
 </div>
 <div created="20160911185735208" modified="20160911185735208" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tiddlywiki.com/library/v5.1.12/index.html" url="http://tiddlywiki.com/library/v5.1.12/index.html">
@@ -12214,6 +12226,15 @@ The forums include the following; each has a different due date as indicated. Ad
 ^^Template: [[Discussions template]]^^&lt;/$list&gt;
 
 </pre>
+</div>
+<div created="20160915193635268" modified="20160915195838747" tags="ViewsFromTheField" title="Document Review Process">
+<pre>The document review process is a &quot;necessary evil.&quot; When it works, subject matter experts (SME) provide a thorough review of the content to ensure the content is technically accurate, complete, and in sync with the product and design specifications. A content editor, someone from the technical writing team, also reviews the content to ensure it complies with the department's style guide. The end result is a set of updates that the writer can quickly and easily incorporate into the content.
+
+When the process does not work, it's usually because the process is broken: parties involved do not fully understand their role or what is expected of them; content is not reviewed and comments are not provided in a timely manner; the review is not done at all.
+
+It is essential that all parties involved fully understand the document review process from start to finish, and know what to expect at each stage. It is critical that all parties participate in the development and refinement of this process.
+
+An assignment for IDT 534 required me to illustrate a process. I chose the document development cycle &lt;insert image&gt;. How does my illustration compare to the processes described in &lt;a href=&quot;http://www.agilewords.com/blog/document-collaboration/document-review-process/&quot;&gt;a post from Agilewords blog&lt;/a&gt;?</pre>
 </div>
 <div created="20160827190927748" modified="20160827191356426" tags="" title="Documentation Definition">
 <pre>&lt;&lt;sbk 20160827150808 &quot;https://www.google.com/#q=annotation&quot; &quot;documentation-def.png&quot;&gt;&gt;</pre>
@@ -13767,14 +13788,6 @@ Includes:&lt;&lt;source https://en.wikipedia.org/wiki/Software_documentation&gt;
 
 &gt; ''Marketing Documents'' – {{Marketing Documents}}
 
-</pre>
-</div>
-<div created="20160914200727333" modified="20160914201619206" tags="ViewsFromTheField" title="Using Swagger to Make API Documentation Interactive">
-<pre>My current employer is a software development company in the access control/security industry. Previous employers have been split between hardware and software with more of a lean toward hardware. So, software terminology like SOAP, Git, API, and Swagger are fairly new to me. The developers I work with use &lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification&quot;&gt;Swagger&lt;/a&gt; (now known as the OpenAPI specification) to develop and test APIs. I have had some exposure to it and the user guide that my team maintains, but I am by no means an expert with Swagger.
-
-Tom Johnson, a technical  writer located in San Jose, California, has a lot more experience with Swagger and documenting APIs than I do. In his blog, &lt;a href=&quot;http://idratherbewriting.com/&quot;&gt;I’d Rather be Writing&lt;/a&gt;, he wrote &lt;a href=&quot;http://idratherbewriting.com/pubapis_swagger_intro/&quot;&gt;an article about his experiences with Swagger&lt;/a&gt;. In it, he discusses how Swagger helps make interactive documentation. I found it helpful in defining Swagger, APIs, REST, etc. I also liked his analogy to DITA and structured authoring (something I have a little more familiarity with).
-
-What do you think?
 </pre>
 </div>
 <div code-activity="I only know the basics of HTML and learning Python right now through Codeacademy." documentation-thoughts="When I hear the word &quot;documentation&quot; I think of making a record of whatever is happening and or is required." learning-objectives="
